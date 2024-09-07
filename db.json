@@ -1,0 +1,41 @@
+{
+  "metrics": {
+    "totalUsers": 10000,
+    "activeUsers": 7500,
+    "totalStreams": 500000,
+    "revenue": 120000,
+    "topArtist": "Artist A"
+  },
+  "user-growth": [
+    { "month": "Jan", "totalUsers": 8000, "activeUsers": 6000 },
+    { "month": "Feb", "totalUsers": 8200, "activeUsers": 6100 },
+    { "month": "Mar", "totalUsers": 8500, "activeUsers": 6300 },
+    { "month": "Apr", "totalUsers": 8700, "activeUsers": 6400 },
+    { "month": "May", "totalUsers": 9000, "activeUsers": 6600 },
+    { "month": "Jun", "totalUsers": 9200, "activeUsers": 6700 },
+    { "month": "Jul", "totalUsers": 9500, "activeUsers": 6900 },
+    { "month": "Aug", "totalUsers": 9700, "activeUsers": 7000 },
+    { "month": "Sep", "totalUsers": 9900, "activeUsers": 7200 },
+    { "month": "Oct", "totalUsers": 10000, "activeUsers": 7500 },
+    { "month": "Nov", "totalUsers": 10200, "activeUsers": 7600 },
+    { "month": "Dec", "totalUsers": 10500, "activeUsers": 7800 }
+  ],
+  "revenue-distribution": [
+    { "name": "Subscriptions", "value": 80000 },
+    { "name": "Ads", "value": 40000 }
+  ],
+  "top-streamed-songs": [
+    { "song": "Song A", "streams": 5000 },
+    { "song": "Song B", "streams": 4500 },
+    { "song": "Song C", "streams": 4000 },
+    { "song": "Song D", "streams": 3500 },
+    { "song": "Song E", "streams": 3000 }
+  ],
+  "recent-streams": [
+    { "songName": "Song A", "artist": "Artist A", "dateStreamed": "2023-10-01", "streamCount": 100, "userId": "user1" },
+    { "songName": "Song B", "artist": "Artist B", "dateStreamed": "2023-10-02", "streamCount": 90, "userId": "user2" },
+    { "songName": "Song C", "artist": "Artist C", "dateStreamed": "2023-10-03", "streamCount": 80, "userId": "user3" },
+    { "songName": "Song D", "artist": "Artist D", "dateStreamed": "2023-10-04", "streamCount": 70, "userId": "user4" },
+    { "songName": "Song E", "artist": "Artist E", "dateStreamed": "2023-10-05", "streamCount": 60, "userId": "user5" }
+  ]
+}
